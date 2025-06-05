@@ -1,0 +1,19 @@
+{
+  "name": "randomsum-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "sums",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dot-env": "^0.0.1",
+    "express": "^5.1.0",
+    "vercel": "^41.0.2"
+  }
+}

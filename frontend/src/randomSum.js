@@ -1,8 +1,8 @@
 const randomSum = async () => {
     const VITE_BACKEND_API_URL = import.meta.env.VITE_BACKEND_API_URL
 
-    const sum1 = await fetch(`VITE_BACKEND_API_URL/sum1`)
-    const sum2 = await fetch(`VITE_BACKEND_API_URL/sum2`)
+    const sum1 = await fetch(`VITE_BACKEND_API_URL${"/sum1"}`)
+    const sum2 = await fetch(`VITE_BACKEND_API_URL${"/sum2"}`)
     const sumsone = await sum1.json();
     const sumstwo = await sum2.json();
 

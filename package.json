@@ -1,5 +1,5 @@
 {
-  "name": "randomsum-project2",
+  "name": "randomsum-project",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -9,8 +9,6 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "express": "^5.1.0",
-    "git": "^0.1.5",
-    "node": "^22.16.0"
+    "express": "^5.1.0"
   }
 }
